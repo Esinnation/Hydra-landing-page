@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  background: #302C42;
+
+}
+.button{
+  padding: 12px 36px ;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border: 2px solid white;
+  border-radius: 40px;
+  color: black;
+  font-size: 12px;
+}
+/* px-9 py-3 bg-transparent text-black rounded-full border-2 */
