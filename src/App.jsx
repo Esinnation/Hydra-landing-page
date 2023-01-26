@@ -2,13 +2,15 @@ import { useState } from 'react'
 import Header from './components/Header'
 import './App.css'
 import Hero from './components/Hero'
+import Contacts from './components/Contacts'
 
 function App() {
 
   return (
-    <div className="">
+    <div>
     <Header/>
-    <Hero/>
+    <Hero/> 
+    <Contacts/> 
     
     </div>
   )
